@@ -3,6 +3,7 @@
 ## Working 
 - Screen
 - Wifi to Mobile
+- Wifi to Infrastructure (Says it's failed, but has an IP when enabling remote services).
 - Joystick
 
 
@@ -13,30 +14,31 @@
 
 ## Keys
 
-| SDL | G80CA-MB |
-|-------------|------------------------------|
-| 1 | A Button (Right) |
-| 0 | B Button (Bottom) |
-| 2 | X Button (Top) |
-| 3 | Y Button (Left) |
-| 4 | L1 Button |
-| 5 | R1 Button |
-| 6 | L2 Button |
-| 7 | R2 Button |
-| 14 | L3 Button |
-| 15 | R3 Button |
-| 8 | D-Pad Up |
-| 9 | D-Pad Down |
-| 10 | D-Pad Left |
-| 11 | D-Pad Right |
-| 12 | Start Button |
-| 13 | Select Button |
-| 16 | Function Button |
-| Axis 2+ | Left Analogue Up |
-| Axis 2- | Left Analogue Down |
-| Axis 3+ | Left Analogue Left |
-| Axis 3- | Left Analogue Right |
-| Axis 0+ | Right Analogue Up |
-| Axis 0- | Right Analogue Down |
-| Axis 1- | Right Analogue Left |
-| Axis 1- | Right Analogue Right |
+| SDL Index / Axis     | G80CA-MB Mapping            | GO-Super Gamepad Mapping     |
+|----------------------|-----------------------------|------------------------------|
+| 1                    | A Button (Right)            | a:b1                         |
+| 0                    | B Button (Bottom)           | b:b0                         |
+| 2                    | X Button (Top)              | x:b2                         |
+| 3                    | Y Button (Left)             | y:b3                         |
+| 4                    | L1 Button                   | leftshoulder:b4              |
+| 5                    | R1 Button                   | rightshoulder:b5             |
+| 6                    | L2 Button                   | lefttrigger:b6               |
+| 7                    | R2 Button                   | righttrigger:b7              |
+| 14                   | L3 Button                   | leftstick:b14                |
+| 15                   | R3 Button                   | rightstick:b17               |
+| 8                    | D-Pad Up                    | dpup:b8                      |
+| 9                    | D-Pad Down                  | dpdown:b9                    |
+| 10                   | D-Pad Left                  | dpleft:b10                   |
+| 11                   | D-Pad Right                 | dpright:b11                  |
+| 12                   | Start Button                | start:b13                    |
+| 13                   | Select Button               | back:b12                     |
+| 16                   | Function Button             | guide:b16                    |
+| Axis 2+              | Left Analogue Up            | lefty:a1  (negative = up)    |
+| Axis 2-              | Left Analogue Down          | lefty:a1  (positive = down)  |
+| Axis 3+              | Left Analogue Left          | leftx:a0  (negative = left)  |
+| Axis 3-              | Left Analogue Right         | leftx:a0  (positive = right) |
+| Axis 0+              | Right Analogue Up           | righty:a3 (negative = up)    |
+| Axis 0-              | Right Analogue Down         | righty:a3 (positive = down)  |
+| Axis 1-              | Right Analogue Left         | rightx:a2 (negative = left)  |
+| Axis 1-              | Right Analogue Right        | rightx:a2 (positive = right) |
+
