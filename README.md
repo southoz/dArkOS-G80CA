@@ -8,7 +8,7 @@
 
 
 ## Issues - 
-- LED on Battery.
+- LED when on Battery.
 - Battery Indicator in Emulation Station
 - Connecting to Wireless Infrastructure
 
@@ -41,4 +41,15 @@
 | Axis 0-              | Right Analogue Down         | righty:a3 (positive = down)  |
 | Axis 1-              | Right Analogue Left         | rightx:a2 (negative = left)  |
 | Axis 1-              | Right Analogue Right        | rightx:a2 (positive = right) |
+
+
+Key Differences Summary:
+
+- Face buttons are swapped in order (typical Japanese vs. Western/Xbox layout):
+   - G80CA-MB: 1=A(Circle), 0=B(Cross), 2=X, 3=Y
+   - GO-Super: 2=X, 1=A, 0=B, 3=Y
+
+- Right stick click → G80CA uses 15 (standard R3), GO-Super uses 17 (uncommon)
+- Select/Start are slightly swapped in assignment (back vs start)
+- Axes are inverted in labeling: G80CA uses Axis 2/3 for left stick, Axis 0/1 for right — GO-Super uses the more common Axis 0/1 left, Axis 2/3 right
 
