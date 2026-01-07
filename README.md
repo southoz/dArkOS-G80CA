@@ -68,6 +68,3 @@ SDL Keymapping
 | Right Analogue Down         | Controller 00 axis 02 value -32768 axis name rightx |
 | Right Analogue Left         | Controller 00 axis 03 value +32767 axis name righty |
 | Right Analogue Right        | Controller 00 axis 03 value -32768 axis name righty) |
-
-## Second SD Card 
-- It was hit and miss until I went and selected the option under advanced (at the bottom).
