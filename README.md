@@ -11,7 +11,7 @@ Image Hash - 0C9A7F048FC1FE75CE087DDBDF0D19BFB205DB2C
 - Wifi to Infrastructure.
 - Joystick - Note uses DarkOS Native control scheme for games and emulationstation
 - Sound
-- Battery LED Blue > 20% Red > 10% Blinksing Red < 10%
+- Battery LED Blue >= 20% > Blinking Red
 
 ## Issues 
 - Battery Indicator in Emulationstation?
