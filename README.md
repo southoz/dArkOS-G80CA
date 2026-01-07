@@ -29,7 +29,6 @@ The **only** component out of sync with upstream dArkOS is the **Battery LED Ser
 
 Before flashing — **very important** to avoid bricking or failed installs:
 
-- **Remove the second SD card** (ROMs card) before starting installation
 - **Do NOT** have the charger plugged in during the whole flashing & first-boot process
 - The ArkOS Wiki recommends **avoiding Balena Etcher** for this device (many users report failures)
 
