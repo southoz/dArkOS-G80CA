@@ -13,7 +13,7 @@ Image Hash - 81559F62E5EA46F2F104FE2337EAD75B1DAC9087
 - Sound
 
 ## Issues 
-- LED when on Battery.
+- LED when on Battery is off above 30% and red 30% or less
 - Battery Indicator in Emulationstation?
 - Headphones Untested
 
