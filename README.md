@@ -15,10 +15,11 @@ Image Hash - 0C9A7F048FC1FE75CE087DDBDF0D19BFB205DB2C
 
 ## Issues 
 - Battery Indicator in Emulationstation?
+- Reboot when charging.
 - Headphones Untested
 
 ## Changes
-- BOOT partition files with DTB updates.
+- ArkOS RG351MP build with BOOT partition and DTB updates for joystick, battery, leds and charger.
 - Battery Warning Service Python Script
 
 ## Firmware Installation
@@ -30,14 +31,14 @@ Image Hash - 0C9A7F048FC1FE75CE087DDBDF0D19BFB205DB2C
 - Blue Screen will come up, and it will reboot after expanding partitions.
 - Blue Screen will come up, and it will reboot after expanding rom.tar
 - Device will boot normally to Emulationstation
-- If you have a second ROMs card,
+- If you have a second ROM SD Card card,
    - turn off,
    - insert the card,
    - boot,
    - Press Start then Options -> Advanced -> Switch to SD2 for Roms
 
 ## Keys
-- No analogue tuning yet, buttons have been aligned as best as possible and joystick axis IDs and inversion status updated.
+- No analogue tuning yet, buttons have been aligned as best as possible, and joystick axis IDs and inversion status updated.
 
 SDL Keymapping
 
