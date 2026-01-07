@@ -2,13 +2,12 @@
 
 - Initial build for testing.
 
-[Google Drive](TBA)
+[Google Drive](https://drive.google.com/file/d/1nsfe2dP6o7pQNpjsnNwvwcXdradEMr4K/view?usp=sharing)
 Image Hash - 0C9A7F048FC1FE75CE087DDBDF0D19BFB205DB2C 
 
 ## Working 
 - Screen
-- Wifi to Mobile
-- Wifi to Infrastructure.
+- Wifi
 - Joystick - Note uses DarkOS Native control scheme for games and emulationstation
 - Sound
 - Battery LED Blue >= 20% > Blinking Red
@@ -18,7 +17,8 @@ Image Hash - 0C9A7F048FC1FE75CE087DDBDF0D19BFB205DB2C
 - Headphones Untested
 
 ## Changes
-- Only to BOOT partition files with DTB updates.
+- BOOT partition files with DTB updates.
+- Battery Warning Service Python Script
 
 ## Firmware Installation
 - Remove the second SD Card, or else it will fail the initial install
