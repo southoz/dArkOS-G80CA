@@ -1,10 +1,8 @@
 # dArkOS-G80CA
 
-- Image with most hardware elements tested and working.
-
-[Google Drive](https://drive.google.com/file/d/1nsfe2dP6o7pQNpjsnNwvwcXdradEMr4K/view?usp=sharing)
-
-Image Hash - 0C9A7F048FC1FE75CE087DDBDF0D19BFB205DB2C 
+- This distro is designed to be a pure dArkoOS experience
+- The modification to the stock RG351MP Make output has been around differences in the hardware, with the aim to simplify future upgrades.
+- The only firmware change that is out of sync with the core distribution is 
 
 ## Working 
 - Screen
