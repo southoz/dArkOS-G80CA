@@ -24,8 +24,7 @@ The **only** component out of sync with upstream dArkOS is the **Battery LED Ser
 
 ## ⚠️ Known Issues
 
-- Battery percentage indicator initially incorrect in Emulationstation
-- Reboot doesn't work when the device is plugged in to charger, stays at Battery DTB Screen
+- Battery percentage indicator initially incorrect in Emulationstation, settles down after a full charge cycle
 
 ## ⚠️ Important Installation Warnings
 
