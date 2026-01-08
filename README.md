@@ -1,19 +1,11 @@
 # dArkOS-G80CA
 
-<<<<<<< HEAD
-**dArkOS build optimized for G80CA / G80CA-MB devices**
-=======
 **dArkOS build optimized for G80CA / G80CA-MB devices**  
->>>>>>> 83b0e10c85d1c503594aa80340c0ae4e56c335d5
 (RK3326-based R36S/RG351MP-style clones)
 
 This version of [dArkOS](https://github.com/christianhaitian/dArkOS) is designed to provide the purest dArkOS experience on G80CA hardware.
 
-<<<<<<< HEAD
-The main differences from stock RG351MP builds are hardware-specific adjustments to make future updates and maintenance easier.
-=======
 The main differences from stock RG351MP builds are hardware-specific adjustments to make future updates and maintenance easier.  
->>>>>>> 83b0e10c85d1c503594aa80340c0ae4e56c335d5
 The **only** component out of sync with upstream dArkOS is the **Battery LED Service** script due to the G80CA LED GPIOS and dual red/blue LED hardware.
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/southoz/dArkOS-G80CA?style=flat-square)](https://github.com/southoz/dArkOS-G80CA/releases)
@@ -45,20 +37,12 @@ Before flashing — **very important** to avoid bricking or failed installs:
 
 ## Step-by-Step Installation
 
-<<<<<<< HEAD
-1. Download the latest image from:
-=======
 1. Download the latest image from:  
->>>>>>> 83b0e10c85d1c503594aa80340c0ae4e56c335d5
    → [Releases page](https://github.com/southoz/dArkOS-G80CA/releases)
 
 2. Extract the `.img` file using **7-Zip** (or similar)
 
-<<<<<<< HEAD
-3. Verify the file integrity (recommended):
-=======
 3. Verify the file integrity (recommended):  
->>>>>>> 83b0e10c85d1c503594aa80340c0ae4e56c335d5
    Compare the hash with the value published in the release notes
 
 4. Flash the image to a good quality microSD card using one of these tools (all confirmed working):
@@ -69,17 +53,10 @@ Before flashing — **very important** to avoid bricking or failed installs:
 
 5. Insert the card (no second ROM card yet) → power on
 
-<<<<<<< HEAD
-6. First boot:
-   → Blue screen appears → device expands partitions → auto-reboots
-
-7. Second boot:
-=======
 6. First boot:  
    → Blue screen appears → device expands partitions → auto-reboots
 
 7. Second boot:  
->>>>>>> 83b0e10c85d1c503594aa80340c0ae4e56c335d5
    → Blue screen again → expands `roms.tar` to EASYROMS partition → auto-reboots
 
 8. Final boot → you should land in EmulationStation
@@ -93,11 +70,7 @@ Before flashing — **very important** to avoid bricking or failed installs:
 
 ## 🎮 Controller / Key Mapping (SDL)
 
-<<<<<<< HEAD
-Buttons have been aligned as closely as possible to the **RG351MP** layout.
-=======
 Buttons have been aligned as closely as possible to the **RG351MP** layout.  
->>>>>>> 83b0e10c85d1c503594aa80340c0ae4e56c335d5
 Analogue tuning is not yet implemented.
 
 | G80CA Button          | SDL Mapping / Name                  | Type / Value          |
@@ -129,9 +102,5 @@ Analogue tuning is not yet implemented.
 - [dArkOS main project](https://github.com/christianhaitian/dArkOS) – huge thanks to christianhaitian!
 - Community discussions: r/R36S, r/SBCGaming, Retro Handhelds groups
 
-<<<<<<< HEAD
-Feel free to report issues or suggest improvements in the [Issues tab](https://github.com/southoz/dArkOS-G80CA/issues).
-=======
 Feel free to report issues or suggest improvements in the [Issues tab](https://github.com/southoz/dArkOS-G80CA/issues).  
->>>>>>> 83b0e10c85d1c503594aa80340c0ae4e56c335d5
 Happy retro gaming! 🎮
