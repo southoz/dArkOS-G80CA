@@ -4,9 +4,7 @@
 (RK3326-based R36S/RG351MP-style clones)
 
 This version of [dArkOS](https://github.com/christianhaitian/dArkOS) is designed to provide the purest dArkOS experience on G80CA hardware.
-
-The main differences from stock RG351MP builds are hardware-specific adjustments to make future updates and maintenance easier.  
-The **only** component out of sync with upstream dArkOS is the **Battery LED Service** script due to the G80CA LED GPIOS and dual red/blue LED hardware.
+If you are looking for a customised version of [dArkOS](https://github.com/christianhaitian/dArkOS) for the G80CA-MB, try [dArkOS-G80CA](https://github.com/southoz/dArkOS-G80CA-SE)
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/southoz/dArkOS-G80CA?style=flat-square)](https://github.com/southoz/dArkOS-G80CA/releases)
 [![GitHub stars](https://img.shields.io/github/stars/southoz/dArkOS-G80CA?style=flat-square)](https://github.com/southoz/dArkOS-G80CA/stargazers)
@@ -25,7 +23,7 @@ The **only** component out of sync with upstream dArkOS is the **Battery LED Ser
 
 ## ⚠️ Known Issues
 
-- Battery percentage indicator and early shutdown. I had used the datasheet to set the shutdown to 3400mV. I am now testing at 3300mV shutdown, but I need to do three full power cycles.
+- Battery percentage indicator and early shutdown. I used the datasheet to set the shutdown voltage to 3400 mV. I am now testing at 3300 mV shutdown, but I need to complete three full-power cycles.
 
 ## ⚠️ Important Installation Warnings
 
