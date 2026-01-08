@@ -4,7 +4,7 @@
 (RK3326-based R36S/RG351MP-style clones)
 
 - This version of [dArkOS](https://github.com/christianhaitian/dArkOS) is designed to provide the purest dArkOS experience on G80CA hardware.
-- If you are looking for a customised version of [dArkOS](https://github.com/christianhaitian/dArkOS) for the G80CA-MB, try [dArkOS-G80CA](https://github.com/southoz/dArkOS-G80CA-SE)
+- If you are looking for a customised version of [dArkOS](https://github.com/christianhaitian/dArkOS) for the G80CA-MB, try [dArkOS-G80CA-SE](https://github.com/southoz/dArkOS-G80CA-SE)
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/southoz/dArkOS-G80CA?style=flat-square)](https://github.com/southoz/dArkOS-G80CA/releases)
 [![GitHub stars](https://img.shields.io/github/stars/southoz/dArkOS-G80CA?style=flat-square)](https://github.com/southoz/dArkOS-G80CA/stargazers)
