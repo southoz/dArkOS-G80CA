@@ -14,7 +14,7 @@ The **only** component out of sync with upstream dArkOS is the **Battery LED Ser
 ## ✅ What's Working
 
 - Screen
-- Wi-Fi
+- Wi-Fi (rtl8192cu, rtl8821cu, rtl8812au and mt7601u verified)
 - Joysticks (uses **dArkOS native** control scheme for games & EmulationStation)
 - Sound (speakers + headphones)
 - Battery LED behaviour:  
