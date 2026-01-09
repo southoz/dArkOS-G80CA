@@ -23,7 +23,7 @@
 
 ## ⚠️ Known Issues
 
-- Battery percentage indicator and early shutdown. I used the datasheet to set the shutdown voltage to 3400 mV. I am now testing at 3300 mV shutdown, but I need to complete three full-power cycles. So far it is looking positive so if you can not wait I have pushed the updated dtb files already and they can be downloaded from [here](https://github.com/southoz/dArkOS-G80CA/tree/main/files/BOOT)
+- Waiting on Issues to be raised.
 
 ## ⚠️ Important Installation Warnings
 
