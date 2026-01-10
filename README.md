@@ -62,9 +62,12 @@ Before flashing — **very important** to avoid bricking or failed installs:
 ### Adding ROMs on second SD card (optional)
 
 - Power off completely
-- Insert your ROMs SD card
+- Insert your ROM SD card
 - Boot the device
 - Press **START** → **Options** → **Advanced** → **Switch to SD2 for Roms**
+- The operating system is expecting the following items to be on the firmware card EASYROMS partition:
+   - Themes folder `themes`
+   - BIOs folder `bios` 
 
 ## 🎮 Controller / Key Mapping (SDL)
 
