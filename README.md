@@ -43,7 +43,7 @@ Before flashing — **very important** to avoid bricking or failed installs:
 3. Verify the file integrity (recommended):  
    Compare the hash with the value published in the release notes
 
-4. Flash the image to a good quality microSD card using one of these tools (all confirmed working):
+4. Flash the image to a good-quality microSD card using one of these tools (all confirmed working):
    - USB Image Tool
    - Raspberry Pi Imager
    - Rufus (Windows)
@@ -67,7 +67,7 @@ Before flashing — **very important** to avoid bricking or failed installs:
 - Press **START** → **Options** → **Advanced** → **Switch to SD2 for Roms**
 - The operating system is expecting the following items to be on the firmware card EASYROMS partition:
    - Themes folder `themes`
-   - BIOs folder `bios` 
+   - BIOS folder `bios` 
 
 ## 🎮 Controller / Key Mapping (SDL)
 
