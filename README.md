@@ -65,9 +65,10 @@ Before flashing — **very important** to avoid bricking or failed installs:
 - Insert your ROM SD card
 - Boot the device
 - Press **START** → **Options** → **Advanced** → **Switch to SD2 for Roms**
-- The operating system is expecting the following items to be on the firmware card EASYROMS partition:
+- DarkOS is expecting the following items to be on the firmware card EASYROMS partition:
    - Themes folder `themes`
-   - BIOS folder `bios` 
+   - BIOS folder `bios`
+- The `tools` folder needs to be copied from the firmware SD card EASYROMS partition to the ROMs SD card EASYROMS partition. 
 
 ## 🎮 Controller / Key Mapping (SDL)
 
