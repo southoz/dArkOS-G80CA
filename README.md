@@ -16,6 +16,8 @@
 - Joystick (uses **dArkOS native** control scheme for games & EmulationStation)
 - Function Button
 - Sound (speakers + headphones)
+- ThemeMaster - **Allow ICMP in your firewall**
+- PortMaster
 - Battery LED behaviour:
    - **Blue** ≥ 20%
    - **Blinking Red** < 20%
@@ -23,7 +25,7 @@
 
 ## ⚠️ Known Issues
 
-- Waiting on Issues to be raised.
+- render96ex is not working
 
 ## ⚠️ Important Installation Warnings
 
