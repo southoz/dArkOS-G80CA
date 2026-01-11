@@ -59,7 +59,7 @@ Before flashing — **very important** to avoid bricking or failed installs:
 7. Second boot:  
    → Blue screen again → expands `roms.tar` to EASYROMS partition → auto-reboots
 
-8. Final boot → you should land in EmulationStation
+8. Final boot → you should land in EmulationStation 
 
 ### Adding ROMs on second SD card (optional)
 
@@ -67,10 +67,6 @@ Before flashing — **very important** to avoid bricking or failed installs:
 - Insert your ROM SD card
 - Boot the device
 - Press **START** → **Options** → **Advanced** → **Switch to SD2 for Roms**
-- DarkOS is expecting the following items to be on the firmware card EASYROMS partition:
-   - Themes folder `themes`
-   - BIOS folder `bios`
-- The `tools` folder needs to be copied from the firmware SD card EASYROMS partition to the ROMs SD card EASYROMS partition. 
 
 ## 🎮 Controller / Key Mapping (SDL)
 
