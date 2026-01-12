@@ -65,8 +65,6 @@ Before flashing — **very important** to avoid bricking or failed installs:
 
 You can use a second SD card (SD2) to store your games (ROMs), BIOS files, and extra data. This keeps your main OS card (with themes and settings) uncluttered. However, on G80CA devices, there can sometimes be boot issues like missing themes if the cards aren't set up right. To avoid this, give your second SD card a unique name (label) like "ROMS2" – don't use "EASYROMS" like the main card.
 
-These steps are simple for Windows or Mac users. We'll use built-in tools or free apps – no advanced tech knowledge needed.
-
 #### Step 1: Prepare Your Second SD Card on Your Computer
 - **Get a Good SD Card**: Use a high-quality one (e.g., SanDisk or Samsung, 64GB+). Insert it into your computer.
 - **Format It** (This erases everything on the card – back up first!):
@@ -85,16 +83,17 @@ These steps are simple for Windows or Mac users. We'll use built-in tools or fre
     - Format: exFAT.
     - Scheme: Master Boot Record.
     - Click Erase.
-- **Add Your Games**: Copy your ROMs, BIOS, etc., to folders on the card (e.g., create folders like "nes", "snes" matching dArkOS systems).
-- Eject the card safely and remove it.
 
 #### Step 2: Switch to the Second SD Card on Your Device
 - Power off your G80CA completely.
 - Insert the prepared second SD card.
 - Power on.
 - In EmulationStation (the main menu), press **START** → **Options** → **Advanced** → **Switch to SD2 for Roms**.
-  - This sets up the card for games. The device will restart.
-- After restart, your games should show up. Themes (from the main card) should still work.
+  - This sets up the card for games.
+- Shutdown and eject the card.
+- **Add Your Games**: Copy your ROMs, BIOS, etc., to folders on the card.
+- Eject the card safely and remove it.
+- After starting, your games should show up. Themes (from the main card) should still work.
 
 **Tips**: 
 - Use the same format (exFAT) for easy file copying from your computer.
