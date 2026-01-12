@@ -61,12 +61,45 @@ Before flashing — **very important** to avoid bricking or failed installs:
 
 8. Final boot → you should land in EmulationStation 
 
-### Adding ROMs on second SD card (optional)
+### Adding ROMs on Second SD Card (Optional)
 
-- Power off completely
-- Insert your ROM SD card
-- Boot the device
-- Press **START** → **Options** → **Advanced** → **Switch to SD2 for Roms**
+You can use a second SD card (SD2) to store your games (ROMs), BIOS files, and extra data. This keeps your main OS card (with themes and settings) uncluttered. However, on G80CA devices, there can sometimes be boot issues like missing themes if the cards aren't set up right. To avoid this, give your second SD card a unique name (label) like "ROMS2" – don't use "EASYROMS" like the main card.
+
+These steps are simple for Windows or Mac users. We'll use built-in tools or free apps – no advanced tech knowledge needed.
+
+#### Step 1: Prepare Your Second SD Card on Your Computer
+- **Get a Good SD Card**: Use a high-quality one (e.g., SanDisk or Samsung, 64GB+). Insert it into your computer.
+- **Format It** (This erases everything on the card – back up first!):
+  - **Windows**: 
+    - Open File Explorer, right-click the SD card drive → Format.
+    - File system: exFAT (best for games).
+    - Allocation unit: Default.
+    - Volume label: Type "ROMS2" (or something unique like "GAMES").
+    - Quick format: Checked.
+    - Click Start.
+  - **Mac**:
+    - Open Disk Utility (search in Spotlight).
+    - Select your SD card on the left (be careful – pick the right one!).
+    - Click Erase.
+    - Name: "ROMS2" (or unique name).
+    - Format: exFAT.
+    - Scheme: Master Boot Record.
+    - Click Erase.
+- **Add Your Games**: Copy your ROMs, BIOS, etc., to folders on the card (e.g., create folders like "nes", "snes" matching dArkOS systems).
+- Eject the card safely and remove it.
+
+#### Step 2: Switch to the Second SD Card on Your Device
+- Power off your G80CA completely.
+- Insert the prepared second SD card.
+- Power on.
+- In EmulationStation (the main menu), press **START** → **Options** → **Advanced** → **Switch to SD2 for Roms**.
+  - This sets up the card for games. The device will restart.
+- After restart, your games should show up. Themes (from the main card) should still work.
+
+**Tips**: 
+- Use the same format (exFAT) for easy file copying from your computer.
+- If you mess up, run **Switch to Main SD for Roms** to go back.
+- For more help, check the dArkOS wiki or community forums (links below).
 
 ## 🎮 Controller / Key Mapping (SDL)
 
