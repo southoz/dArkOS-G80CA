@@ -11,7 +11,7 @@
 
 ## ✅ What's Working
 
-- Screen for Panel 8, if you have Panel 9, raise an issue, and I will work with you to get a dtb file released.
+- Screen for Panel 8, Panel 9 DTBs are being tested and are available [here](https://github.com/southoz/dArkOS-G80CA/tree/main/files/DTB/Panel9)
 - Wi-Fi (rtl8192cu, rtl8821cu, rtl8812au and mt7601u verified)
 - Joystick (uses **dArkOS native** control scheme for games & EmulationStation)
 - Function Button
