@@ -11,7 +11,7 @@
 
 ## ✅ What's Working
 
-- Screen for Panel 8, Panel 9 DTBs are being tested and are available [here](https://github.com/southoz/dArkOS-G80CA/tree/main/files/DTB/Panel9)
+- Screen for Panel 8 (default) and Panel 9.
 - Wi-Fi (rtl8192cu, rtl8821cu, rtl8812au and mt7601u verified)
 - Joystick (uses **dArkOS native** control scheme for games & EmulationStation)
 - Function Button
@@ -51,19 +51,23 @@ Before flashing — **very important** to avoid bricking or failed installs:
    - Rufus (Windows)
    - **Avoid** Balena Etcher if possible
 
-5. Insert the card (no second ROM card yet) → power on
+5. **Panel 9 only.** Copy the dtb files from [here](https://github.com/southoz/dArkOS-G80CA/tree/main/files/DTB/Panel9) to the BOOT partition.
 
-6. First boot:  
+6. Insert the card (no second ROM card yet) → power on
+
+7. First boot:  
    → Blue screen appears → device expands partitions → auto-reboots
 
-7. Second boot:  
+8. Second boot:  
    → Blue screen again → expands `roms.tar` to EASYROMS partition → auto-reboots
 
-8. Final boot → you should land in EmulationStation 
+9. Final boot → you should land in EmulationStation 
 
 ### Adding ROMs on Second SD Card (Optional)
 
-You can use a second SD card (SD2) to store your games (ROMs), BIOS files, and extra data. This keeps your main OS card (with themes and settings) uncluttered. However, on G80CA devices, there can sometimes be boot issues like missing themes if the cards aren't set up right. To avoid this, give your second SD card a unique name (label) like "ROMS2" – don't use "EASYROMS" like the main card.
+You can use a second SD card (SD2) to store your games (ROMs), BIOS files, and extra data. This keeps your main OS card (with themes and settings) uncluttered. However, on G80CA devices, there can sometimes be boot issues, such as missing themes, if the cards aren't set up correctly. To avoid this, give your second SD card a unique name (label) like "ROMS2" – don't use "EASYROMS" like the main card.
+
+** If you have used your second SD Card on other firmware, delete the contents of `psp/ppsspp/PSP/SYSTEM` to enable dArkOS controls.
 
 #### Step 1: Prepare Your Second SD Card on Your Computer
 - **Get a Good SD Card**: Use a high-quality one (e.g., SanDisk or Samsung, 64GB+). Insert it into your computer.
