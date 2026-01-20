@@ -26,6 +26,7 @@
 ## ⚠️ Known Issues
 
 - render96ex is not working
+- scripts reference the dtb filenames for setting up the environment for emulators like retrorun.
 
 ## ⚠️ Important Installation Warnings
 
