@@ -122,10 +122,10 @@ Analogue tuning is not yet implemented.
 | R2                    | `righttrigger`                      | axis 05 → 32767       |
 | L3                    | —                                   | button 14             |
 | R3                    | —                                   | button 15             |
-| D-Pad Up              | `dpup`                              | button 11             |
-| D-Pad Down            | `dpdown`                            | button 12             |
-| D-Pad Left            | `dpleft`                            | button 13             |
-| D-Pad Right           | `dpright`                           | button 14             |
+| D-Pad Up              | `dpup`                              | button 08             |
+| D-Pad Down            | `dpdown`                            | button 09             |
+| D-Pad Left            | `dpleft`                            | button 10             |
+| D-Pad Right           | `dpright`                           | button 11             |
 | Start                 | —                                   | button 13 (Joystick)  |
 | Select                | —                                   | button 12 (Joystick)  |
 | Function              | —                                   | button 16 (Joystick)  |
