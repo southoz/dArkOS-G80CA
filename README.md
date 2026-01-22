@@ -2,7 +2,7 @@
 
 - **If you are looking for dArkOS build optimised for the G80CA**  then you need the, [dArkOS-G80CA-RE](https://github.com/southoz/dArkOS-G80CA-RE) version, with the full Advanced Drastic replacement, optimised controls, performance tweaks for the best G80CA experience.
 <p align="center">
-<a href="https://github.com/southoz/dArkOS-G80CA-RE)">
+<a href="https://github.com/southoz/dArkOS-G80CA-RE">
 <img width="204" height="320" alt="image" src="https://github.com/user-attachments/assets/d0334598-9296-466f-8e6e-4ca2e15daf70" />
 </a>
 </p>
