@@ -1,7 +1,7 @@
 # dArkOS-G80CA
 
-- **If you are looking for dArkOS build optimized for the G80CA**  [dArkOS](https://github.com/christianhaitian/dArkOS) then you need this verion [dArkOS-G80CA-RE](https://github.com/southoz/dArkOS-G80CA-RE)
-- This version of [dArkOS](https://github.com/christianhaitian/dArkOS) is ***not optimised** fo the G80CA hardware.
+- **If you are looking for dArkOS build optimized for the G80CA**  [dArkOS](https://github.com/christianhaitian/dArkOS) then you need this verion [dArkOS-G80CA-RE](https://github.com/southoz/dArkOS-G80CA-RE).
+- This version of [dArkOS](https://github.com/christianhaitian/dArkOS) is **not optimised** fo the G80CA hardware and offers a basic experiance.
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/southoz/dArkOS-G80CA?style=flat-square)](https://github.com/southoz/dArkOS-G80CA/releases)
 [![GitHub stars](https://img.shields.io/github/stars/southoz/dArkOS-G80CA?style=flat-square)](https://github.com/southoz/dArkOS-G80CA/stargazers)
